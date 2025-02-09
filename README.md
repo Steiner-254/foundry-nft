@@ -75,3 +75,56 @@ forge install
 cp .env.example .env
 ```
 
+## Usage
+### Building the Project
+- To compile the Solidity contracts, run:
+
+```bash
+forge build
+```
+
+### Running Tests
+- Execute the test suite to ensure everything is working as expected:
+
+```bash
+forge test
+```
+
+### Deployment
+- Deployment scripts are available in the script folder. To deploy your NFT contract, run:
+
+```bash
+forge script script/DeployNFT.s.sol --broadcast --verify
+```
+
+>> (Make sure you have configured your network settings and private keys as needed.)
+
+
+### Project Structure
+- src/: Contains all Solidity source contracts.
+- test/: Contains unit tests for the contracts.
+- script/: Deployment and utility scripts.
+- lib/: External libraries and dependencies.
+- .github/workflows/: CI/CD configurations for GitHub Actions.
+- Makefile: Command shortcuts for common tasks.
+- foundry.toml: Configuration file for Foundry.
+- .env.example: Example file for environment variables.
+
+## License 📜
+- This project is licensed under the MIT License. See the LICENSE file for details.
+
+### Contributing 🤝
+- Project Developed By: ![Steinet254](https://twitter.com/Steiner254)
+- Feel free to fork this repo, submit issues, or create pull requests! Contributions are always welcome.
+
+### Acknowledgments 🙌
+- `Foundry` for providing an exceptional framework for Solidity development.
+- `OpenZeppelin` for setting standards in secure contract implementations.
+- `Ethereum Community` for supporting decentralized application development.
+- `Cyfrin Updraft` for the learning content aiding to this project development.
+
+### Happy Coding! 🚀
+
+```vbet
+Happy Web3 Revolution <3
+```
