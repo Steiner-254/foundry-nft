@@ -114,7 +114,7 @@ forge script script/DeployNFT.s.sol --broadcast --verify
 - This project is licensed under the MIT License. See the LICENSE file for details.
 
 ### Contributing 🤝
-- Project Developed By: ![Steinet254](https://twitter.com/Steiner254)
+- Project Developed By: [Steinet254](https://twitter.com/Steiner254)
 - Feel free to fork this repo, submit issues, or create pull requests! Contributions are always welcome.
 
 ### Acknowledgments 🙌
