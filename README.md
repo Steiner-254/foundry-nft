@@ -61,3 +61,17 @@ curl -L https://foundry.paradigm.xyz | bash
 foundryup
 ```
 
+### Install Dependencies
+- If your project requires additional dependencies from the lib directory, ensure they are updated:
+
+```bash
+forge install
+```
+
+### Configure Environment Variables
+- Copy the example environment file and adjust the values as needed:
+
+```bash
+cp .env.example .env
+```
+
