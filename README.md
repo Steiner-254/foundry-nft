@@ -101,14 +101,14 @@ forge script script/DeployNFT.s.sol --broadcast --verify
 
 
 ### Project Structure
-- src/: Contains all Solidity source contracts.
-- test/: Contains unit tests for the contracts.
-- script/: Deployment and utility scripts.
-- lib/: External libraries and dependencies.
-- .github/workflows/: CI/CD configurations for GitHub Actions.
-- Makefile: Command shortcuts for common tasks.
-- foundry.toml: Configuration file for Foundry.
-- .env.example: Example file for environment variables.
+- **src/:** Contains all Solidity source contracts.
+- **test/:** Contains unit tests for the contracts.
+- **script/:** Deployment and utility scripts.
+- **lib/:** External libraries and dependencies.
+- **.github/workflows/:** CI/CD configurations for GitHub Actions.
+- **Makefile:** Command shortcuts for common tasks.
+- **foundry.toml:** Configuration file for Foundry.
+- **.env.example:** Example file for environment variables.
 
 ## License 📜
 - This project is licensed under the MIT License. See the LICENSE file for details.
